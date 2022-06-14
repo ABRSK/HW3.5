@@ -8,9 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    let persons = Person.getRandomPersons()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            TabView {
+                BasicListView(persons: persons, navTitle: "Contact List")
+                    .tabItem {
+                        Image(systemName: "person.crop.rectangle")
+                        Text("Basic List")
+                    }
+                DetailedListView(persons: persons, navTitle: "Contact List")
+                    .tabItem {
+                        Image(systemName: "person.text.rectangle")
+                        Text("Detailed List")
+                    }
+            }
+        }
     }
 }
 
