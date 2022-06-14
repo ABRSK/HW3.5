@@ -13,6 +13,10 @@
 		135A649428587FDD00A1764C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 135A649328587FDD00A1764C /* Preview Assets.xcassets */; };
 		135A649B28587FED00A1764C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A649A28587FED00A1764C /* Person.swift */; };
 		135A649D2858805700A1764C /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A649C2858805700A1764C /* DataStorage.swift */; };
+		135A649F2858997700A1764C /* BasicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A649E2858997700A1764C /* BasicListView.swift */; };
+		135A64A12858998800A1764C /* DetailedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A64A02858998800A1764C /* DetailedListView.swift */; };
+		135A64A32858999E00A1764C /* DetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A64A22858999E00A1764C /* DetailedView.swift */; };
+		135A64A52858D15600A1764C /* PersonContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A64A42858D15600A1764C /* PersonContactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		135A649328587FDD00A1764C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		135A649A28587FED00A1764C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		135A649C2858805700A1764C /* DataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
+		135A649E2858997700A1764C /* BasicListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicListView.swift; sourceTree = "<group>"; };
+		135A64A02858998800A1764C /* DetailedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedListView.swift; sourceTree = "<group>"; };
+		135A64A22858999E00A1764C /* DetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedView.swift; sourceTree = "<group>"; };
+		135A64A42858D15600A1764C /* PersonContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 			children = (
 				135A648C28587FDD00A1764C /* HW3_5App.swift */,
 				135A648E28587FDD00A1764C /* ContentView.swift */,
+				135A649E2858997700A1764C /* BasicListView.swift */,
+				135A64A02858998800A1764C /* DetailedListView.swift */,
+				135A64A22858999E00A1764C /* DetailedView.swift */,
+				135A64A42858D15600A1764C /* PersonContactView.swift */,
 				135A649028587FDD00A1764C /* Assets.xcassets */,
 				135A649228587FDD00A1764C /* Preview Content */,
 				135A649A28587FED00A1764C /* Person.swift */,
@@ -143,8 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				135A64A12858998800A1764C /* DetailedListView.swift in Sources */,
 				135A649B28587FED00A1764C /* Person.swift in Sources */,
 				135A649D2858805700A1764C /* DataStorage.swift in Sources */,
+				135A649F2858997700A1764C /* BasicListView.swift in Sources */,
+				135A64A52858D15600A1764C /* PersonContactView.swift in Sources */,
+				135A64A32858999E00A1764C /* DetailedView.swift in Sources */,
 				135A648F28587FDD00A1764C /* ContentView.swift in Sources */,
 				135A648D28587FDD00A1764C /* HW3_5App.swift in Sources */,
 			);
