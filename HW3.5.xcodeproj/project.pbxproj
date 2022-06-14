@@ -11,6 +11,8 @@
 		135A648F28587FDD00A1764C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A648E28587FDD00A1764C /* ContentView.swift */; };
 		135A649128587FDD00A1764C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 135A649028587FDD00A1764C /* Assets.xcassets */; };
 		135A649428587FDD00A1764C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 135A649328587FDD00A1764C /* Preview Assets.xcassets */; };
+		135A649B28587FED00A1764C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A649A28587FED00A1764C /* Person.swift */; };
+		135A649D2858805700A1764C /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A649C2858805700A1764C /* DataStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		135A648E28587FDD00A1764C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		135A649028587FDD00A1764C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		135A649328587FDD00A1764C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		135A649A28587FED00A1764C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		135A649C2858805700A1764C /* DataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				135A648E28587FDD00A1764C /* ContentView.swift */,
 				135A649028587FDD00A1764C /* Assets.xcassets */,
 				135A649228587FDD00A1764C /* Preview Content */,
+				135A649A28587FED00A1764C /* Person.swift */,
+				135A649C2858805700A1764C /* DataStorage.swift */,
 			);
 			path = HW3.5;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				135A649B28587FED00A1764C /* Person.swift in Sources */,
+				135A649D2858805700A1764C /* DataStorage.swift in Sources */,
 				135A648F28587FDD00A1764C /* ContentView.swift in Sources */,
 				135A648D28587FDD00A1764C /* HW3_5App.swift in Sources */,
 			);
