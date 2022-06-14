@@ -22,8 +22,8 @@ struct DetailedView: View {
                     .padding()
                     Spacer()
                 }
-                PersonContactView(imageName: "phone.circle", contactText: person.phoneNumber)
-                PersonContactView(imageName: "envelope.circle", contactText: person.emailAddress)
+                ContactRow(imageName: "phone.circle", contactText: person.phoneNumber)
+                ContactRow(imageName: "envelope.circle", contactText: person.emailAddress)
                 
             }
             Spacer()
