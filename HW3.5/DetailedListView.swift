@@ -13,13 +13,11 @@ struct DetailedListView: View {
     
     var body: some View {
         NavigationView {
-            List {
-                ForEach(persons) { person in
+            List(persons) { person in
                     Section(person.fullName) {
                         ContactRow(imageName: "phone.circle", contactText: person.phoneNumber)
                         ContactRow(imageName: "envelope.circle", contactText: person.emailAddress)
                     }
-                }
             }
             .listStyle(.insetGrouped)
         .navigationTitle(navTitle)
