@@ -12,16 +12,18 @@ struct DetailedListView: View {
     let navTitle: String
     
     var body: some View {
-        List {
-            ForEach(persons) { person in
-                Section(person.fullName) {
-                    ContactRow(imageName: "phone.circle", contactText: person.phoneNumber)
-                    ContactRow(imageName: "envelope.circle", contactText: person.emailAddress)
+        NavigationView {
+            List {
+                ForEach(persons) { person in
+                    Section(person.fullName) {
+                        ContactRow(imageName: "phone.circle", contactText: person.phoneNumber)
+                        ContactRow(imageName: "envelope.circle", contactText: person.emailAddress)
+                    }
                 }
             }
-        }
-        .listStyle(.insetGrouped)
+            .listStyle(.insetGrouped)
         .navigationTitle(navTitle)
+        }
     }
 }
 

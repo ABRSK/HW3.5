@@ -12,13 +12,15 @@ struct BasicListView: View {
     let navTitle: String
     
     var body: some View {
-        List(persons) { person in
-            NavigationLink(person.fullName) {
-                DetailedView(person: person)
+        NavigationView {
+            List(persons) { person in
+                NavigationLink(person.fullName) {
+                    DetailedView(person: person)
+                }
             }
-        }
-        .listStyle(.plain)
+            .listStyle(.plain)
         .navigationTitle(navTitle)
+        }
         
     }
 }

@@ -11,19 +11,17 @@ struct ContentView: View {
     let persons = Person.getRandomPersons()
     
     var body: some View {
-        NavigationView {
-            TabView {
-                BasicListView(persons: persons, navTitle: "Contact List")
-                    .tabItem {
-                        Image(systemName: "person.crop.rectangle")
-                        Text("Basic List")
-                    }
-                DetailedListView(persons: persons, navTitle: "Contact List")
-                    .tabItem {
-                        Image(systemName: "person.text.rectangle")
-                        Text("Detailed List")
-                    }
-            }
+        TabView {
+            BasicListView(persons: persons, navTitle: "Basic List")
+                .tabItem {
+                    Image(systemName: "person.crop.rectangle")
+                    Text("Basic List")
+                }
+            DetailedListView(persons: persons, navTitle: "Detailed List")
+                .tabItem {
+                    Image(systemName: "person.text.rectangle")
+                    Text("Detailed List")
+                }
         }
     }
 }
@@ -33,3 +31,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
