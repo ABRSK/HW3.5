@@ -10,8 +10,6 @@ import Foundation
 class DataStorage {
     static let shared = DataStorage()
     
-    private init() {}
-    
     let firstNames = [
         "Andrey",
         "Brian",
@@ -72,4 +70,6 @@ class DataStorage {
         "9964572632@gmail.com",
         "9675872463@gmail.com"
     ]
+    
+    private init() {}
 }
